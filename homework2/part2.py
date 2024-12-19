@@ -3,20 +3,20 @@ b = int(input("Enter second number: "))
 oper = input("Choose an operator +, -, *, / : ")
 
 if oper == "+" :
-    def sum():
+    def add():
         return(a + b)
-    print(sum())
+    print(add())
 elif oper == "-" :
-    def sum():
+    def subt():
         return(a - b)
-    print(sum())  
+    print(subt())  
 elif oper == "*" :
-    def sum():
+    def mult():
         return(a * b)
-    print(sum())  
+    print(mult())  
 elif oper == "/" :
-    def sum():
+    def div():
         return(a / b)
-    print(sum())        
+    print(div())        
 else:
     print("Incorrect entry.")
